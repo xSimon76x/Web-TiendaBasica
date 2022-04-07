@@ -1,6 +1,6 @@
 const models = {
   productModel: require(`./mysql/product`),
-  categoryModel: require(`${pathModels}/category`),
+  categoryModel: require(`./mysql/category`),
 };
 
 module.exports = models;
