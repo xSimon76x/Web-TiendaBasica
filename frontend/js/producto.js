@@ -1,5 +1,13 @@
+/**
+ * se  obteniene el bloque de la etiqueta listCategorias
+ */
 const listaProductos = document.getElementById("listProduct");
 
+/**
+ * en base a los datos de la api en la ruta de /product
+ * se integran los productos en el front
+ * creandose los elementos necesarios e introduciendolos.
+ */
 const viewProducts = () => {
   return getData("/product").then((response) => {
     response.data.data.map((item) => {
