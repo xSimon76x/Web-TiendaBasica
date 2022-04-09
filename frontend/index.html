@@ -30,10 +30,9 @@
         </div>
         <div class="col">
           <input
+            id="inputName"
             class="form-control"
-            type="search"
             placeholder="Buscar"
-            aria-label="Search"
             style="
               background-color: #47494d;
               border-color: #47494d;
@@ -43,7 +42,7 @@
           />
         </div>
         <div class="col">
-          <button class="btn">
+          <button class="btn" onclick="searchByName()">
             <i class="bi bi-search" style="font-size: 1rem; color: white"></i>
           </button>
         </div>
@@ -63,7 +62,9 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./js/api.js"></script>
-    <script src="./js/function.js"></script>
+    <script src="./js/producto.js"></script>
+    <script src="./js/categoria.js"></script>
+    <script src="./js/filtros.js"></script>
     <style>
       .col {
         padding: 0 !important;
