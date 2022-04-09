@@ -1,4 +1,12 @@
 const { validationResult } = require("express-validator");
+
+/**
+ * Validar los resultados obtenidos por la api
+ * @param {*} req
+ * @param {*} res
+ * @param {*} next
+ * @returns
+ */
 const validateResults = (req, res, next) => {
   try {
     validationResult(req).throw();

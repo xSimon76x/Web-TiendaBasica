@@ -15,3 +15,7 @@ const bsaleApiBase = axios.create({
 const getData = (extensionApi) => {
   return bsaleApiBase.get(extensionApi);
 };
+
+/**
+ * Rutas en documentacion postman https://documenter.getpostman.com/view/11549316/UVyxRZqc
+ */
