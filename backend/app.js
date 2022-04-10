@@ -11,8 +11,11 @@ app.use(cors());
 app.use(express.json());
 app.set("port", port);
 app.use("/api", require("./routes"));
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
 
 state == false ? dbConnectMySQL() : setInterval(dbConnectMySQL(), 200000);
+
+// Aplicacion subida a un repositorio en Heroku

@@ -2,7 +2,7 @@
  * Creacion de una ruta estatica para la api
  */
 const bsaleApiBase = axios.create({
-  baseURL: "http://localhost:3001/api",
+  baseURL: "https://backend-bsale1.herokuapp.com/api",
 });
 
 /**
