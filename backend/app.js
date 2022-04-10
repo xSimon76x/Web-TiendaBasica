@@ -18,4 +18,4 @@ app.listen(port, () => {
 
 state == false ? dbConnectMySQL() : setInterval(dbConnectMySQL(), 200000);
 
-// Aplicacion subida a un repositorio en Heroku
+// Aplicacion subida a un repositorio en Heroku https://backend-bsale1.herokuapp.com/api
